@@ -120,13 +120,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   if (!isinit) {
                     if (cjp.isEmpty) {
-                      showSnackBarAscjp("文字を入力してください");
+                      showSnackBarAscjp('文字を入力してください');
                     } else {
                       Clipboard.setData(ClipboardData(text: cjp));
-                      showSnackBarAscjp("クリップボードにテキストをコピーしました");
+                      showSnackBarAscjp('クリップボードにテキストをコピーしました');
                     }
                   } else {
-                    showSnackBarAscjp("文字を入力してください");
+                    showSnackBarAscjp('文字を入力してください');
                   }
                 },
                 child: const Text('コピー'),
