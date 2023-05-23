@@ -1,6 +1,6 @@
 # correctjp
 
-怪しい日本語ジェネレーター
+Flutter製の怪しい日本語ジェネレーター
 
 ## Getting Started
 
