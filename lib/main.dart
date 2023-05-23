@@ -3,7 +3,7 @@
 import 'dart:io';
 
 import 'package:correctjp/converter.dart';
-import 'package:correctjp/initTextField.dart';
+import 'package:correctjp/inittextfield.dart';
 import 'package:correctjp/ui/info.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
