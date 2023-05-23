@@ -16,7 +16,11 @@ jobs:
           java-version: '17.x'
       - uses: subosito/flutter-action@v1
         with:
-          flutter-version: '4.0.0'
+          flutter-version: '3.10.1'
+      - run: flutter channel latest
+        name: flutter latest
+      - run: flutter upgrade
+        name: flutter upgrade
       - run: flutter pub get
       - name: run build
         run: flutter build web
